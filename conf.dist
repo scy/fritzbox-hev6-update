@@ -1,0 +1,23 @@
+# The (IPv4) device you want your tunnel to run over.
+uplink='eth0'
+
+# The desired name of the IPv6 device.
+ifname='hev6'
+
+# "Server IPv4 address" in your tunnel details page.
+server='216.66.80.30'
+
+# "Client IPv6 address".
+v6addr='2001:470:1234:1234::2/64'
+
+# echo -n 'my password' | md5sum
+md5pass='acbd18db4cc2f85cedef654fccc4a4d8'
+
+# "UserID" in your account overview page.
+userid='37b51d194a7513e45b56f6524f2d51f2'
+
+# "Global Tunnel ID" in your tunnel details page.
+tunnelid='12345'
+
+# How often to check for a new external IP, in seconds.
+refresh='5'
